@@ -1,2 +1,2 @@
 # Projects
-Self Project and Learning
+Self Projects
