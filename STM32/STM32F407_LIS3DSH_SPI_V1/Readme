@@ -1,3 +1,3 @@
 
 File : STM32F407_LIS3DSH_SPI_V1.c 
-This is simple c code for STM32F407 Discovery board to communicate with inbuilt LIS3DSH present in the board Using SPI communication.
+This is simple a c code for STM32F407 Discovery board to communicate with inbuilt LIS3DSH present in the board Using SPI communication.
