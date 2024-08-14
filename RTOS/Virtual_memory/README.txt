@@ -13,7 +13,7 @@ THERE ARE 2 FILES IN TOTAL INCLUDING README FILE.
 
 							HOW TO RUN
 
-We have used Python(python3) in an linux based system(ubuntu)
+Used Python(python3) in an linux based system(ubuntu)
 
 To tun the scheduling algorithm
 
