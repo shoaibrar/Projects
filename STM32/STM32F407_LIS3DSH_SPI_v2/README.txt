@@ -4,5 +4,5 @@ STM32F407_LIS3DSH_SPI_v2 :  This is a simple program on creating a SPI driver to
                             Comparing to the STM32F407_LIS3DSH_SPI_V1 which implements the SPI directly, this implementation uses header and function files declared in the library.
 
                             STM32F407_LIS3DSH_SPI_v2.c is the main file
-                            SpiDrive.h is the Header file dor SPI driver
+                            SpiDrive.h is the Header file for SPI driver
                             SpiDrive.c is the function definition file for SPI Driver
