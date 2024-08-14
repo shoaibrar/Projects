@@ -1,0 +1,44 @@
+---------------------------------README-----------------------------------
+
+				COMPE 571 - EMBEDDED OPERATING SYSTEM 
+
+						Programming Assignment -2
+
+
+
+STUDENTS: MOHAMMED SHOAIB IBRAR MOHAMMED AKMAL - 828380911
+		  VAIBHAV JOSHI - 828558777
+
+THERE ARE 5 FILES IN TOTAL INCLUDING README FILE.
+
+'rr.c' 'sjf.c' 'fcfs.c' 'mlfq.c' 'README.txt'
+
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+							HOW TO RUN
+
+
+ROUND ROBIN
+	For Round Robin, compile
+										"gcc rr.c"
+	execute the file 					 " ./a.out N "
+
+SHORTEST JOB FIRST
+	For SJF, compile
+										"gcc sjf.c"
+	execute the file 				     "./a.out"
+
+FIRST COME FIRST SERVE
+	For FCFS, compile	
+												"gcc fcfs.c"
+	execute the file 				     		"./a.out"
+
+MULTI-LEVEL FEEDBACK QUEUE
+	For MLFQ compile
+												"gcc mlfq.c"
+	execute the file 				    		"./a.out"
+
+
+
+-------------------------------------THE END-------------------------------------------
