@@ -1,3 +1,7 @@
 
-File : STM32F407_LIS3DSH_SPI_V1
-This is simple a c code for STM32F407 Discovery board to communicate with inbuilt LIS3DSH accelerometer Using SPI communication.
+Folder : STM32F407_LIS3DSH_SPI_V1
+This Folder contains a simple a c code for STM32F407 Discovery board to communicate with inbuilt LIS3DSH accelerometer Using SPI communication.
+
+Folder : STM32F407_LIS3DSH_SPI_v2
+This Folder contains a simple and necessary SPI driver declarations and functions for STM32F407 Discovery board to communicate with inbuilt LIS3DSH accelerometer.
+This is not a full SPI driver, rahter a improved version of STM32F407_LIS3DSH_SPI_V1 by creating the SPI device driver.
