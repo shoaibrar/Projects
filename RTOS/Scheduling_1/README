@@ -9,7 +9,18 @@ THERE ARE 5 FILES IN TOTAL INCLUDING README FILE.
 'rr.c' 'sjf.c' 'fcfs.c' 'mlfq.c' 'README.txt'
 
 ////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////
+This project simulatesscheduling algorithms and observed its performance.
+it is executed in an Linux environment.
+
+rr.c file performs round robin scheduling
+
+sjf.c files performs Shortest job first sheduling
+
+fcfs.c file performs First come First serve scheduling
+
+mlfq.c file performs multi level feedback queue scheduling
+
+
 
 							HOW TO RUN
 
