@@ -8,7 +8,19 @@ THERE ARE 6 FILES IN TOTAL INCLUDING README FILE.
 'base.c' 'frk.c' 'thrd.c' 'ppn.c' 'eppn.c' 'README.txt'
 
 ////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////
+This project simulates Multitasking and Multithreading and observed its performance.
+it is executed in an Linux environment.
+
+base.c file does a simple task of incrementing sum by 1 till Limit is reached
+
+thrd.c file does the same task but uses multiple threads
+
+frk.c files uses multitaksing to do the task. It creates taks by using fork
+
+eppn.c and ppn.c file does multitasking using popen method.
+
+
+
 
 							HOW TO RUN
 
