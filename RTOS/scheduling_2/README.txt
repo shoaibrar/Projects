@@ -1,14 +1,8 @@
 ---------------------------------README-----------------------------------
 
-				COMPE 571 - EMBEDDED OPERATING SYSTEM 
+This is a coursework project i did during my masters
 
-						Programming Assignment -3
-
-
-
-STUDENTS: MOHAMMED SHOAIB IBRAR MOHAMMED AKMAL - 828380911
-		  VAIBHAV JOSHI - 828558777
-		  Anish Puranik - 828540057
+--------------------------------------------------------------------------
 
 THERE ARE 4 FILES IN TOTAL INCLUDING README FILE.
 
@@ -19,9 +13,9 @@ THERE ARE 4 FILES IN TOTAL INCLUDING README FILE.
 
 							HOW TO RUN
 
-We have used Python(python3) in an linux based system(ubuntu)
+Used Python(python3) in an linux based system(ubuntu)
 
-To tun the scheduling algorithm
+To run the scheduling algorithm
 
 	The format:	>> python3 main.py [input_file] [algorithm] [Energy_efficient or not]
 	
