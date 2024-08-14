@@ -1,14 +1,8 @@
 ---------------------------------README-----------------------------------
 
-				COMPE 571 - EMBEDDED OPERATING SYSTEM 
+This is a coursework project i did Durign my masters
 
-						Programming Assignment -3
-
-
-
-STUDENTS: MOHAMMED SHOAIB IBRAR MOHAMMED AKMAL - 828380911
-		  VAIBHAV JOSHI - 828558777
-		  Anish Puranik - 828540057
+--------------------------------------------------------------------------
 
 THERE ARE 2 FILES IN TOTAL INCLUDING README FILE.
 
