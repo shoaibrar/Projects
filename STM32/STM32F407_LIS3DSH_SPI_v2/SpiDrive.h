@@ -23,16 +23,6 @@ typedef struct{
 	uint8_t SpiLSB;
 }config_spi;
 
-//This struct is used to access the SPI registers.
-//Only necessry registers are declared for commmunnicatio with LIS3DSH
-typedef struct {
-	uint32_t CR1;
-	uint32_t CR2;
-	uint32_t SR;
-	uint32_t DR;
-}spi_regi;
-
-
 // Macros for SPI mode
 #define SpiMode_master				1
 #define SpiMode_slave				0
@@ -76,8 +66,8 @@ typedef struct {
 
 // Declaring the Functions
 //Only necessary functions are declared
-void spi_init(spi_regi *SPIx, config_spi *SPI_configer,GPIO_TypeDef *gpiox, uint16_t pinVAL);
-void spi_write(spi_regi *SPIx,uint8_t reg, uint8_t data,GPIO_TypeDef *gpiox, uint16_t pinVAL);
-int8_t spiReaD(spi_regi *SPIx,uint8_t reg,GPIO_TypeDef *gpiox, uint16_t pinVAL);
+void spi_init(SPI_RegDef_t *SPIx, config_spi *SPI_configer,GPIO_TypeDef *gpiox, uint16_t pinVAL);
+void spi_write(SPI_RegDef_t *SPIx,uint8_t reg, uint8_t data,GPIO_TypeDef *gpiox, uint16_t pinVAL);
+int8_t spiReaD(SPI_RegDef_t *SPIx,uint8_t reg,GPIO_TypeDef *gpiox, uint16_t pinVAL);
 
 #endif /* INC_SPIDRIVE_H_ */
