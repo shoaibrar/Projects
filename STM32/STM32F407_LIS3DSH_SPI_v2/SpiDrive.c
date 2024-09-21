@@ -12,7 +12,7 @@
 //This function does not configure all the setting of SPI
 
 // The SPI used, SPI configuration using struct, the GPIO port used for clock and the GPIO pin used is passed as arguments
- void spi_init(spi_regi *SPIx, config_spi *SPI_configer,GPIO_TypeDef *gpiox, uint16_t pinVAL){
+ void spi_init(SPI_RegDef_t *SPIx, config_spi *SPI_configer,GPIO_TypeDef *gpiox, uint16_t pinVAL){
 
 	SPIx->CR1 = 0;                  //Clearing the CR1 register of SPI
 	SPIx->CR1 |= (SPI_configer->SpiCPOL<<0)|(SPI_configer->SpiCPHA<<1); //The SPI configurations are set
@@ -27,7 +27,7 @@
 //Function to Write data through SPI
 //This is a simple function that only writes data for 8bit
 // The SPI used, Register address, Data to be written, the GPIO port used for clock and the GPIO pin used is passed as arguments
- void spi_write(spi_regi *SPIx,uint8_t reg, uint8_t data,GPIO_TypeDef *gpiox, uint16_t pinVAL){
+ void spi_write(SPI_RegDef_t *SPIx,uint8_t reg, uint8_t data,GPIO_TypeDef *gpiox, uint16_t pinVAL){
 	uint8_t garb = 0; // Garbage variable to read from buffer
 
 	gpiox->ODR &= ~(1<<pinVAL); // Chip Select pin PE3 set to low. Initializing the Communication
@@ -57,7 +57,7 @@
 //This is a simple function that only read data for 8bit
 // The SPI used, Register address, the GPIO port used for clock and the GPIO pin used is passed as arguments
 
- int8_t spiReaD(spi_regi *SPIx,uint8_t reg,GPIO_TypeDef *gpiox, uint16_t pinVAL){
+ int8_t spiReaD(SPI_RegDef_t *SPIx,uint8_t reg,GPIO_TypeDef *gpiox, uint16_t pinVAL){
 
  	int8_t val = 0; // Variable to read the data
  	reg |= 0x80; // Setting the MSB bit high Indicating Read process to slave
